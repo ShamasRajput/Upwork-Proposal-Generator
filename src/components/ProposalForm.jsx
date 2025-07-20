@@ -45,6 +45,7 @@ export default function ProposalForm({ onSubmit, loading }) {
                 <Textarea
                     id="jobDescription"
                     name="jobDescription"
+                    className='h-40 overflow-y-auto resize-none'
                     placeholder="Paste job description here..."
                     value={formData.jobDescription}
                     onChange={handleChange}
